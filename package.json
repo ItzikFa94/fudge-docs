@@ -1,0 +1,12 @@
+{
+    "name": "botech.studio-documentation-server",
+    "version": "0.0.1",
+    "scripts": {
+      "start": "cd website && npm start"
+    },
+    "author": "botech.studio",
+    "license": "PRIVATE",
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  

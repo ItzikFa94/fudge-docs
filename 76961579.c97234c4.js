@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{67:function(o){o.exports=JSON.parse('{"allTagsPath":"https://github.com/BotechStudio/fudge-docs/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"https://github.com/BotechStudio/fudge-docs/blog/tags/docusaurus"}')}}]);

@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Fudge',
-  tagline: 'Ready made base web application, it can be anything',
+  tagline: 'Ready-made base web application, it can be anything',
   url: 'https://botechstudio.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

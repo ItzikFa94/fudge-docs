@@ -16,7 +16,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/getStarted',
+          to: 'docs/project-stracture',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',

@@ -1,5 +1,5 @@
 ---
-id: addEndPoint
+id: add-end-point
 title: Add new end point
 ---
 

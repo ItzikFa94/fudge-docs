@@ -3,6 +3,8 @@ id: handling-errors
 title: Errors handling
 ---
 
+### Intro
+
 As our application grows, the way we are handling errors should become more elegant, clean and efficient to prevent missunderstadings and time waste.
 
 Fudge's team, created a simple and maintainable way to handle errors by using **redux**'s state and a

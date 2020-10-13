@@ -30,6 +30,6 @@ example:
 
 ```javascript
 .specialHeader {
-    color: red;
+    font-family: 'Sansita Swashed', cursive;
 }
 ```

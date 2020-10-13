@@ -3,6 +3,8 @@ id: add-page
 title: Add new page
 ---
 
+### Intro
+
 As part of the Authentication proccess we implemented in fudge, the end-user exposed to both **public** and **private** pages.
 
 Here's how we can add **public** and **private** pages in 2 simple steps.
@@ -16,7 +18,7 @@ Please navigate to the main **client** folder in your project before you start f
 
 
 
-### Step one
+### Createing new page
 1.1 Navigate to **client > app > containers**,
 
 1.2 Create a continer folder for the public page.
@@ -34,7 +36,7 @@ function newPage(){
 }
 ```
 
-### Step two
+### Adding private/public route
 2.1 Navigate to **client > app > containers > App > index.js**,
 and import the container folder you just created at the imports section (top).
 

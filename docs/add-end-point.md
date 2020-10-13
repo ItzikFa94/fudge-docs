@@ -3,6 +3,8 @@ id: add-end-point
 title: Add new end point
 ---
 
+### Intro
+
 Fudge's server created by using Node & Express js.
 By using those cutting edge technologies, we created an authentication system that allows to 
 protect some routes and expose others.

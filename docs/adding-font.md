@@ -24,12 +24,18 @@ const GlobalStyle = createGlobalStyle`
 `;
 ```
 
+please make sure to import the font at the **index.html** file or the css file:
+
+```javascript
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+```
+
 in order to apply different font or styles, please import the wanted font and use it inside the component created. make sure to put it inside the correct section or create a new one.
 
 example:
 
 ```javascript
 .specialHeader {
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 ```

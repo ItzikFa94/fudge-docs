@@ -11,6 +11,7 @@ the font loaded using the styled components technology inside one specific compo
 
 :::note
 The file tht holds the main styles called **global-styles.js**, and can be found at **client > app > global-styles.js**.
+for the example we will make a use of [google-fonts](https://fonts.google.com).
 :::
 
 ### Use case

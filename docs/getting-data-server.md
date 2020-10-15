@@ -3,6 +3,8 @@ id: getting-data-server
 title: Getting data from server
 ---
 
+### Intro
+
 The fudge application making heavy use of **redux-saga**, a modern library that aims to make application side effects (like data fetching and accessing the browser cache).
 
 In order to fetch data from the server, fudge's team created a simple work flow that is both efficient and easy to maintain using redux-saga.
@@ -29,4 +31,35 @@ the arguments the "call" method (by [redux-saga](https://redux-saga.js.org)) get
 - **reqOptions** - the request options like: method, headers etc.
 
 As we can see, the response will be stored in a constant variable called **userData**.
+
+### Server and DB
+
+in this case, the end-point url is **"/users/signup"**, wich located at ** server > conrollers > user.js**.
+
+the api call hits the end-point below:
+
+```javascript
+exports.signUp = async (req, res) => {
+  try {
+    const {
+      password,
+      confirmPassword
+    } = req.body;
+
+    if (password !== confirmPassword) throw new Error('Password is not matching');
+
+    const user = new User(req.body);
+
+    await user.save();
+    const token = await user.generateAuthToken();
+    res.status(201).send({ user, token });
+  } catch (error) {
+    res.status(403).send(error);
+  }
+}
+```
+
+and as we can see the credentials been **saved to the DB**, token has been generated and sent back to the browser.
+in case of errors, the end-point built with try/catch blocks which indicates about errors and handle them properly.
+
 

@@ -59,7 +59,9 @@ exports.signUp = async (req, res) => {
 }
 ```
 
-and as we can see the credentials been **saved to the DB**, token has been generated and sent back to the browser.
+and making use of the **User** model schema (imported at the top of the file).
+
+as we can see the credentials been **saved to the DB**, token has been generated and **sent back to the browser along with the new user details**.
 in case of errors, the end-point built with try/catch blocks which indicates about errors and handle them properly.
 
 

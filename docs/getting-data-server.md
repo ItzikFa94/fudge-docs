@@ -30,7 +30,24 @@ the arguments the "call" method (by [redux-saga](https://redux-saga.js.org)) get
 - **requestURL** - an end point url address.
 - **reqOptions** - the request options like: method, headers etc.
 
+:::note
+Pay attention, "reqOptions" hold the request **method**.
+please make sure that you use the right method for your api call (GET, POST, PUT etc.).
+:::
+
 As we can see, the response will be stored in a constant variable called **userData**.
+
+In addition, the request body that hold's the email, password and confirm password, is sent as a string:
+
+```javascript
+body: JSON.stringify({
+      email,
+      password,
+      confirmPassword
+    })
+```
+
+the server expact to get the body as a **string**, we can find the parsing options at the main app.js file inside the server folder. more about parsing in express can be found at the official [docs](http://expressjs.com/en/api.html#req.body).
 
 ### Server and DB
 

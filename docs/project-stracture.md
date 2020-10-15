@@ -5,23 +5,23 @@ title: Project stracture
 
 ### Files stracture tree
 ```
-root-directory
-├── client
-│   ├── app
-│   ├── server
-│   ├── node_modules
-│   ├── package.json
-│   └── package-lock.json
-├── server
-    ├── app.js
-    ├── db
-    ├── controllers
-    ├── routers
-    ├── models
-    ├── middleware
-    ├── node_modules
+── root-directory
+    ├── init.js
+    ├── Licence
+    ├── README.md
     ├── package.json
-    └── package-lock.json
+    ├── client
+    │   ├── app
+    │   ├── server
+    │   └── package.json
+    ├── server
+        ├── app.js
+        ├── db
+        ├── controllers
+        ├── routers
+        ├── models
+        ├── middleware
+        └── package.json
 
 ```
 

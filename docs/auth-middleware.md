@@ -40,8 +40,8 @@ can be found at **server > routers > user.js**.
 
 ### Admin auth
 
-The auth proccess, can include admin authentication also, as we can see at **server > conrollers > data.js**.
-the routes we are looking at are protected routes for admins only, what cousing that is:
+The auth proccess can include admin authentication also, as we can see at **server > conrollers > data.js**.
+the routes we are looking at are protected and visible for admins only, what cousing that is:
 
 ```javascript
 const { isAdmin } = req.user
@@ -49,5 +49,5 @@ if(!isAdmin) return res.send('User is not admin')
 ```
 
 as we can see, the user object is returned from the auth middleware, then we check for ``isAdmin`` field.
-if the the field holds positive value (true, 1 and etc) the user is admin and he gain an access to that route.
+if the the field holds positive value (true) the user is admin and he gain an access to that route.
 

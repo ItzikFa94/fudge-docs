@@ -10,9 +10,11 @@ title: Project stracture
     ├── Licence
     ├── README.md
     ├── package.json
+    ├── admin
+    │   ├── app
+    │   └── package.json
     ├── client
     │   ├── app
-    │   ├── server
     │   └── package.json
     ├── server
         ├── app.js
@@ -24,6 +26,19 @@ title: Project stracture
         └── package.json
 
 ```
+
+### Admin overview
+
+The **CMS** built to enable the admins to contorl and manage the app data.
+the admin can update/modify/delete users data (can be switched to any collection) and be aware of any change at the app.
+
+main parts:
+- **Main app.js** - admin > app > app.js
+- **Routes** - admin > app > containers > App > index.js
+- **Screens** - admin > app > containers
+- **Components** - admin > app > components
+- **Global styles** - admin > app > global-styles.js
+- **Main saga** - admin > app > containers > App > saga.js
 
 ### Client overview
 

@@ -57,7 +57,7 @@ Please make sure you are using a unic path for the path prop and fill the compon
 
 for more information about the "Route" or "Switch" methods please check the react-router official [docs](https://reactrouter.com).
 
-#### Add privage page
+#### Add private page
 
 2.2 Inside index.js, create a route using **PrivateRoute** method (imported) and place it between the `<Switch>` tags.
 

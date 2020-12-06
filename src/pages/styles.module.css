@@ -5,6 +5,67 @@
  * and scoped locally.
  */
 
+  /* latin */
+@font-face {
+  font-family: 'SB Body';
+  font-style: italic;
+  font-weight: 400;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'SB Body';
+  font-style: italic;
+  font-weight: 700;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'SB Body';
+  font-style: normal;
+  font-weight: 400;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'SB Body';
+  font-style: normal;
+  font-weight: 700;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'SB Heading';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'SB Heading';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'SB Heading';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'SB Heading';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('http://localhost:3000/font/Dekar-Regular.woff2') format('woff2');
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -32,6 +93,6 @@
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  /* height: 200px; */
+  /* width: 200px; */
 }

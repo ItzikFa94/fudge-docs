@@ -1,13 +1,20 @@
 module.exports = {
   title: 'Fudge',
-  tagline: 'Ready-made base web application, it can be anything',
+  tagline: 'Fully implemented web application with both client and server code ready for use!',
+  customFields: {
+    tagline_more: 'Skip all the hard initial work and focus on your own project core',
+    tagline_note: 'Based on best practices and latest technologies',
+  },
   url: 'https://botechstudio.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.ico',
   organizationName: 'BotechStudio', // Usually your GitHub org/user name.
   projectName: 'fudge-docs', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      disableSwitch: true,
+    },
     navbar: {
       title: 'Fudge',
       logo: {
@@ -18,13 +25,18 @@ module.exports = {
         {
           to: 'docs/project-stracture',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Documentation',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://fudge.botech.studio',
+          label: 'Pricing',
+          position: 'left',
+        },
+        // {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://botech.studio',
+          label: 'by botech.studio',
           position: 'right',
         },
       ],
@@ -36,42 +48,55 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'How to Install',
+              to: '/docs/installation',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Project Structure',
+              to: 'docs/project-stracture',
+            },
+            {
+              label: 'What Fudge is based on',
+              to: 'docs/based-on',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Download Fudge',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Purchase Page',
+              href: 'https://fudge.botech.studio',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Personal Area',
+              href: 'https://fudge.botech.studio/download',
             },
           ],
         },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'Twitter',
+        //       href: 'https://twitter.com/docusaurus',
+        //     },
+        //   ],
+        // },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Web Apps Development',
+              href: 'https://botech.studio',
             },
           ],
         },
@@ -86,15 +111,15 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

@@ -20,7 +20,7 @@ Inside global-styles.js, we are making use of **createGlobalStyle** method by st
 ```javascript
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SB Body', 'Roboto', sans-serif;
   }
 `;
 ```
@@ -37,6 +37,6 @@ example:
 
 ```javascript
 .specialHeader {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SB Heading', 'Roboto', sans-serif;
 }
 ```

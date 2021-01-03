@@ -12,6 +12,9 @@ module.exports = {
   organizationName: 'BotechStudio', // Usually your GitHub org/user name.
   projectName: 'fudge-docs', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      disableSwitch: true,
+    },
     navbar: {
       title: 'Fudge',
       logo: {

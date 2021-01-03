@@ -94,28 +94,39 @@ function Home() {
       description="">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <img style={{ width: '100px', height: '100px'}} src={logoWhite} alt="" />
+          <img style={{ width: '100px', height: '100px' }} src={logoWhite} alt="" />
           <h1 className="hero__title">{siteConfig.title}</h1>
+          <div style={{ height: '45px' }}></div>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
           <p className="hero__subtitle">{siteConfig.customFields.tagline_note}</p>
           <p className="hero__subtitle">{siteConfig.customFields.tagline_more}</p>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div style={{ height: '45px' }}></div>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                'button button--outline button--lg',
+                styles.white_text,
+              )}
+              to={'https://demo.botech.studio'}>
+              View Demo
+            </Link>
+            <div style={{ width: '15px' }}></div>
+            <Link
+              className={clsx(
+                'button button--outline button--lg',
+                styles.green_text,
               )}
               to={'https://fudge.botech.studio'}>
               Download
             </Link>
+
           </div>
         </div>
       </header>
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
-            <div className="container">
+            <div className={styles.features_container}>
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />

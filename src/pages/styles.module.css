@@ -73,6 +73,29 @@
   overflow: hidden;
 }
 
+.features_container {
+  padding: 0 80px;
+}
+
+.white_text {
+  color: white;
+}
+
+.white_text:hover {
+  color: #1abc9c;
+  background-color: white;
+}
+
+.green_text {
+  color: #1abc9c;
+  background-color: white;
+}
+
+.green_text:hover {
+  /* color: #whi; */
+  background-color: #1abc9c;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
@@ -90,9 +113,4 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
-}
-
-.featureImage {
-  /* height: 200px; */
-  /* width: 200px; */
 }

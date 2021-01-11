@@ -16,7 +16,7 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: 'SB Body';
-  --ifm-font-size-base: 25px;
+  --ifm-font-size-base: 20px; /*25*/ 
   --ifm-container-width: 1920px;
 }
 

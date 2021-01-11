@@ -29,7 +29,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://fudge.botech.studio',
+          href: 'http://shop.botech.studio',
           label: 'Pricing',
           position: 'left',
         },
@@ -66,11 +66,11 @@ module.exports = {
           items: [
             {
               label: 'Purchase Page',
-              href: 'https://fudge.botech.studio',
+              href: 'http://shop.botech.studio',
             },
             {
               label: 'Personal Area',
-              href: 'https://fudge.botech.studio/download',
+              href: 'http://shop.botech.studio/download',
             },
           ],
         },

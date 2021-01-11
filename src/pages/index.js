@@ -12,8 +12,7 @@ const features = [
     imageUrl: 'img/react-boilerplate-logo.jpg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices
       </>
     ),
   },
@@ -22,8 +21,7 @@ const features = [
     imageUrl: 'img/jwt-logo.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Industry standard method for representing claims securely between two parties.
       </>
     ),
   },
@@ -32,8 +30,8 @@ const features = [
     imageUrl: 'img/socketio-logo.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Enables real-time, bidirectional and event-based communication.
+      It works on every platform, browser or device, focusing equally on reliability and speed.
       </>
     ),
   },
@@ -41,10 +39,9 @@ const features = [
     title: 'Secure Connection to MongoDB',
     imageUrl: 'img/mongodb-logo.png',
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+    <>
+    Cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.      
+    </>
     ),
   },
   {
@@ -52,8 +49,7 @@ const features = [
     imageUrl: 'img/expressjs-logo.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Minimal and flexible Node.js web application framework that provides a robust set of features for web.
       </>
     ),
   },
@@ -62,8 +58,7 @@ const features = [
     imageUrl: 'img/nodejs-logo.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Open source, cross-platform runtime environment for developing server-side and networking applications.
       </>
     ),
   },
@@ -116,7 +111,7 @@ function Home() {
                 'button button--outline button--lg',
                 styles.green_text,
               )}
-              to={'https://fudge.botech.studio'}>
+              to={'http://shop.botech.studio/'}>
               Download
             </Link>
 

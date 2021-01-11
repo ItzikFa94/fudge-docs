@@ -102,7 +102,7 @@ function Home() {
                 'button button--outline button--lg',
                 styles.white_text,
               )}
-              to={'https://demo.botech.studio'}>
+              to={'http://demo.botech.studio'}>
               View Demo
             </Link>
             <div style={{ width: '15px' }}></div>
